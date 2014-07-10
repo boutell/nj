@@ -1,0 +1,3 @@
+{% include "head.nj" %}
+This is the middle.
+{% include "tail.nj" %}

@@ -1,0 +1,30 @@
+{
+  "name": "nj",
+  "version": "0.1.0",
+  "description": "Command line utility for compiling nunjucks templates to static HTML files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Boutell <boutell@boutell.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boutell/nj"
+  },
+  "keywords": [
+    "nunjucks",
+    "templates"
+  ],
+  "bugs": {
+    "url": "https://github.com/boutell/nj/issues"
+  },
+  "homepage": "https://github.com/boutell/nj",
+  "dependencies": {
+    "nunjucks": "^1.0.5",
+    "yargs": "^1.2.6"
+  },
+  "bin": {
+    "habit": "./bin/nj"
+  }
+}
