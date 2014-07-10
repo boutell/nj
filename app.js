@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 var argv = require('yargs').argv;
 var nunjucks = require('nunjucks');
 var path = require('path');
