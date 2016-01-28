@@ -28,6 +28,9 @@ if (argv._[1]) {
 
 fs.writeFileSync(output, nunjucks.render(input, data));
 
+// node 0.12.x does not exit otherwise despite having nothing left to do
+process.exit(0);
+
 function usage() {
   console.error('Usage: nj filename.nj [optional JSON filename]');
   console.error();

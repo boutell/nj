@@ -1,6 +1,6 @@
 {
   "name": "nj",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Command line utility for compiling nunjucks templates to static HTML files",
   "main": "app.js",
   "scripts": {

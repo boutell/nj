@@ -22,3 +22,7 @@ nj myfile.nj mydata.json
 ## Changelog
 
 0.1.0: initial release.
+
+0.1.1-0.1.3: npm nonsense, no code changes.
+
+0.1.4: explicit exit when done to work around versions of node that can't figure this out on their own.
