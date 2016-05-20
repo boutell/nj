@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/boutell/nj",
   "dependencies": {
-    "nunjucks": "^1.0.5",
+    "nunjucks": "^2.0.0",
     "yargs": "^1.2.6"
   },
   "bin": {
